@@ -1,1 +1,1 @@
-#Sofies Portfolio lavet med vanilla HTML og Bootstrap
+#Sofies Portfolio lavet med vanilla HTML, CSS, Sass og Bootstrap som CSS Framework
