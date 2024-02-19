@@ -17,7 +17,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 
-	<link rel="shortcut icon" type="image/png" href="images/SofieFavicon.png">
+	<link rel="shortcut icon" type="image/png" href="images/SofieFavicon2.png">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -206,10 +206,10 @@
 			<p>Kontakt mig</p>
 		</div>
 		<div class="col-md-6 col-sm-12">
-			<form action="mailto:snjwindeloev@gmail.com">
+			<form action="mailto:snjwindeloev@gmail.com" method="post" enctype="text/plain">
 				<div class="form-group">
 					<label for="formControlNavn">Navn</label>
-					<input type="email" class="form-control" id="formControlNavn" placeholder="Navn">
+					<input type="text" class="form-control" id="formControlNavn" placeholder="Navn">
 				</div>
 				<div class="form-group">
 					<label for="formControlMail">Email address</label>
@@ -219,7 +219,9 @@
 					<label for="formControlText">Tekst</label>
 					<textarea class="form-control" id="formControlText" rows="3"></textarea>
 				</div>
-				<button type="submit" class="btn submitKnap mt-2">Submit</button>
+				<button type="submit" class="btn submitKnap mt-2">
+					Submit
+				</button>
 			</form>
 		</div>
 	</div>
